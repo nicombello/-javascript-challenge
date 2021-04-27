@@ -18,6 +18,6 @@ new_data = new_data.filter(table_row => table_row.datetime == input_date)
 // using newly obtained data to build table created
 make_table(new_data);}
 d3.select("#filter-btn").on("click", on_click)
-​
+
 // having an initial table built when someone loads the page without an attached filter
 make_table(tableData);
